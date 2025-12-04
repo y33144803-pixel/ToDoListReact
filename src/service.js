@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // הגדרת כתובת ה-API כ-default
-axios.defaults.baseURL = 'http://localhost:5050';
+axios.defaults.baseURL = 'https://todoapi-yssw.onrender.com';
 
 // הוספת interceptor להוספת JWT token לכל בקשה
 axios.interceptors.request.use(
