@@ -190,7 +190,7 @@ function App() {
         {/* Default Route */}
         <Route 
           path="/" 
-          element={isLoggedIn ? <Navigate to="/tasks" /> : <Navigate to="/login" />} 
+          element={isLoggedIn ? <Navigate to="/tasks" /> : <Navigate to="/register" />} 
         />
         
         {/* 404 Fallback */}
